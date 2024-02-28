@@ -23,7 +23,7 @@ const VerifyPayment = () => {
                         <input type="text" value="16B79ZsUvNg6hLP7EmtGMJSRym4rTF8oRY" className="border border-slate-500 p-2 rounded-md w-full"/>
                         <button className="bg-gradient-to-tl from-blue-900 to-black text-white p-2 h-10 rounded-md text-sm" onClick={()=>copy("16B79ZsUvNg6hLP7EmtGMJSRym4rTF8oRY")}>Copy</button>
                     </div>
-                    <h4 className="font-semibold text-[10px] text-red-500">please ensure you send to <span className='font-bold'>TRC20</span>  blckchain to prevent loss of funds</h4>
+                    <h4 className="font-semibold text-[10px] text-red-500">please ensure you send to <span className='font-bold'>BTC</span> blockchain to prevent loss of funds</h4>
                 </div>
                 <div  className="">
                     <h4  className="font-semibold text-sm">BTC Amount</h4>
