@@ -43,7 +43,7 @@ const SignUp = () => {
                 Cookies.set("loggedin", true);
                 router.push("/dashboard")
             }else{
-                alert("password no mash")
+                alert("password does not match")
             }
         } catch (error) {
           alert("something went wrong with the registration")
