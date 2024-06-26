@@ -21,7 +21,7 @@ const PaymentDetails = () => {
                     </div>
                     <div  className="flex gap-5 items-center">
                         <h4 className="max-[450px]:text-[13px]">Sum Total :</h4>
-                        <h4 className="font-bold">${parseInt(params.price) + 10} USD</h4>
+                        <h4 className="font-bold">${parseInt(params.price) + 900} USD</h4>
                     </div>
                     <div  className="flex gap-5 items-center">
                         <h4 className="max-[450px]:text-[13px]">Proposed Transaction Duration :</h4>
